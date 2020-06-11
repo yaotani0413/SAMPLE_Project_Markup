@@ -1,0 +1,9 @@
+.login-box {
+  height: 650px;
+  width: 900px;
+  background-color: pink;
+  margin: auto;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+}
