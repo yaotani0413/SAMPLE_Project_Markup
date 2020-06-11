@@ -1,9 +1,42 @@
 .login-box {
   height: 650px;
   width: 900px;
-  background-color: pink;
+  background-color: #242424;
   margin: auto;
   margin-top: 200px;
   display: flex;
   flex-direction: column;
+}
+
+.mail {
+  height: 50px;
+  width: 600px;
+  position: relative;
+  top: 250px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 10px;
+  font-size: 17px;
+}
+
+.pass {
+  height: 50px;
+  width: 600px;
+  position: relative;
+  top: 280px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 10px;
+  font-size: 17px;
+}
+
+.login {
+  height: 50px;
+  width: 600px;
+  position: relative;
+  top: 310px;
+  margin: 0 auto;
+  background-color: #FFCD28;
+  border-radius: 10px;
+  font-size: 17px;
 }
