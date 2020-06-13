@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  height: 850px;
+}
+
+.signup-box {
+  background-color: #242424;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  height: 50px;
+  width: 600px;
+  position: relative;
+  top: 380px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 10px;
+  font-size: 17px;
+}
+
+.mail {
+  height: 50px;
+  width: 600px;
+  position: relative;
+  top: 410px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 10px;
+  font-size: 17px;
+}
+
+.pass {
+  height: 50px;
+  width: 600px;
+  position: relative;
+  top: 440px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 10px;
+  font-size: 17px;
+}
+
+.signup {
+  height: 50px;
+  width: 600px;
+  position: relative;
+  top: 470px;
+  margin: 0 auto;
+  background-color: #FFCD28;
+  border-radius: 10px;
+  font-size: 17px;
+}
