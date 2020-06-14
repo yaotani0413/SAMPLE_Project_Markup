@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  height: 850px;
+}
+
+.signin-box {
+  background-color: #242424;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.mail {
+  height: 50px;
+  width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 380px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  font-size: 17px;
+}
+
+.pass {
+  height: 50px;
+  width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  font-size: 17px;
+}
+
+.signin {
+  height: 50px;
+  width: 600px;
+  margin: 0 auto;
+  background-color: #FFCD28;
+  border-radius: 10px;
+  font-size: 17px;
+}
