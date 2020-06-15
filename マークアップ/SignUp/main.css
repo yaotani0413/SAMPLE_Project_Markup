@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  height: 850px;
+  height: 100vh;
+  width: 100vw;
 }
 
 .signup-box {
@@ -9,6 +10,7 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .name {
@@ -16,7 +18,6 @@ body {
   width: 600px;
   text-align: center;
   margin: 0 auto;
-  margin-top: 380px;
   margin-bottom: 25px;
   border-radius: 10px;
   font-size: 17px;
