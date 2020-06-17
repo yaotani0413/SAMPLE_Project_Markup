@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  height: 850px;
+  height: 100vh;
+  width: 100vw;
 }
 
 .profile-box {
@@ -9,11 +10,10 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 p {
-  margin: 0 auto;
-  margin-top: 180px;
   margin-bottom: 50px;
   color: #FFCD28;
   font-weight: bold;
@@ -23,11 +23,8 @@ p {
 .name {
   height: 50px;
   width: 600px;
-  /* position: relative;
-  top: 250px; */
   text-align: center;
-  margin: 0 auto;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   border-radius: 10px;
   font-size: 17px;
 }
@@ -35,11 +32,8 @@ p {
 .mail {
   height: 50px;
   width: 600px;
-  /* position: relative;
-  top: 280px; */
   text-align: center;
-  margin: 0 auto;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   border-radius: 10px;
   font-size: 17px;
 }
@@ -47,11 +41,8 @@ p {
 .pass {
   height: 50px;
   width: 600px;
-  /* position: relative;
-  top: 310px; */
   text-align: center;
-  margin: 0 auto;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   border-radius: 10px;
   font-size: 17px;
 }
@@ -59,10 +50,8 @@ p {
 .update {
   height: 45px;
   width: 150px;
-  /* position: relative;
-  top: 340px; */
-  margin: 0 auto;
   background-color: #FFCD28;
   border-radius: 10px;
   font-size: 17px;
+  cursor: pointer;
 }
